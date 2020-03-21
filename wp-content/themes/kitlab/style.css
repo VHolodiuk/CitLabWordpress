@@ -1,0 +1,174 @@
+/*
+Theme Name: Kit Lab
+Theme URI: https://wordpress.org/themes/kitlab/
+Author: VHolodiuk
+Author URI: https://malnwti.github.io/
+Description: Test todo from kitLab
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    margin: 30px 0;
+}
+body{
+    width: 100%;
+    position: absolute;
+    min-height: 100vh;
+    background: #fff;
+    padding-bottom: 80px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1572px;
+    display: block;
+    padding: 0 20px;
+}
+header{
+    background: #171626;
+    height: 80px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.headerWrapper{
+    position: relative;
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerWrapper .logo{
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #FF800B;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.headerWrapper .logo b{
+    font-family: inherit;
+    font-weight: inherit;
+    color: #fff;
+    text-transform: uppercase;
+}
+.headerWrapper .menu_wrapper .menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.headerWrapper .menu li{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    color: #FFF;
+    justify-content: center;
+}
+.headerWrapper .menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.headerWrapper .menu li:hover{
+    color: #FF800B;
+}
+
+
+section{
+    margin-bottom: 50px;
+}
+.main p{
+    margin-bottom: 30px;
+}
+.main p a{
+    text-decoration: none;
+    color: #FF800B;
+}
+.main p a:hover{
+    text-decoration: underline;
+}
+
+.main .wrap_img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.main .wrap_img img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.table_wrapper{
+    width: 100%;
+}
+
+
+
+footer{
+    background: #171626;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.footerWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerWrapper .logo{
+    font-weight: bold;
+    color: #484574;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.footerWrapper .logo b{
+    font-family: inherit;
+    font-weight: inherit;
+    color: #19164B;
+    text-transform: uppercase;
+}
+.footerWrapper .menu_wrapper .menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.footerWrapper .menu li{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    color: #FFF;
+    justify-content: center;
+}
+.footerWrapper .menu li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+.footerWrapper .menu li:hover{
+    color: #FF800B;
+}
